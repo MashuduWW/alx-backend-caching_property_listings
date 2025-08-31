@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alx-backend-caching_property_listings.urls'
+ROOT_URLCONF = 'alx_backend_caching_property_listings.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alx-backend-caching_property_listings.wsgi.application'
+WSGI_APPLICATION = 'alx_backend_caching_property_listings.wsgi.application'
 
 
 # Database
@@ -80,7 +80,7 @@ DATABASES = {
         "NAME": "mydb",
         "USER": "myuser",
         "PASSWORD": "mypassword",
-        "HOST": "postgres",   # matches service name in docker-compose
+        "HOST": "localhost",   # matches service name in docker-compose
         "PORT": "5432",
     }
 }
